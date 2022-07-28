@@ -3,7 +3,7 @@
 
 /* custom variables */
 :root {
-    --primary-blue: ##289BDE;
+    --primary-blue: #289BDE;
     --theme-black: #1D1D1DB2;
 }
 
@@ -15,14 +15,19 @@ body {
     filter: brightness(65%);
 }
 
-
-
 .banner-title {
     font-weight: 600;
     font-size: 4rem;
     line-height: 5.1rem;
     text-align: center;
     color: #FFFFFF;
+}
+
+.course-price {
+    color: var(--primary-blue);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 
