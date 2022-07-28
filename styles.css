@@ -4,4 +4,40 @@
 /* custom variables */
 :root {
     --primary-blue: ##289BDE;
+    --theme-black: #1D1D1DB2;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-image {
+    filter: brightness(65%);
+}
+
+
+
+.banner-title {
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 5.1rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* media query */
+
+@media screen and (max-width:768px) {
+    .banner-title {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .banner-title {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
 }
