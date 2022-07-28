@@ -1,8 +1,7 @@
 /* google font */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
-/* common styles */
 
+/* common styles */
 :root {
     --primary-blue: #289BDE;
 }
@@ -13,7 +12,6 @@ body {
 
 .banner-title {
     font-size: 4rem;
-    line-height: 5.1rem;
 }
 
 .course-price {
@@ -22,7 +20,11 @@ body {
     line-height: 2rem;
 }
 
-/* media query for banner only */
+.e-learning {
+    background-color: #F4FAFD;
+}
+
+/* media query for banner text only */
 
 @media screen and (max-width:768px) {
     .banner-title {
