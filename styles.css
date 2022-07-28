@@ -12,14 +12,12 @@ body {
 }
 
 .banner-title {
-    font-weight: 600;
     font-size: 4rem;
     line-height: 5.1rem;
 }
 
 .course-price {
     color: var(--primary-blue);
-    font-weight: 600;
     font-size: 1rem;
     line-height: 2rem;
 }
