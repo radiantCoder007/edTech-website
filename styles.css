@@ -1,26 +1,20 @@
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
 
-/* custom variables */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+/* common styles */
+
 :root {
     --primary-blue: #289BDE;
-    --theme-black: #1D1D1DB2;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
 }
 
-.banner-image {
-    filter: brightness(65%);
-}
-
 .banner-title {
     font-weight: 600;
     font-size: 4rem;
     line-height: 5.1rem;
-    text-align: center;
-    color: #FFFFFF;
 }
 
 .course-price {
@@ -30,8 +24,7 @@ body {
     line-height: 2rem;
 }
 
-
-/* media query */
+/* media query for banner only */
 
 @media screen and (max-width:768px) {
     .banner-title {
